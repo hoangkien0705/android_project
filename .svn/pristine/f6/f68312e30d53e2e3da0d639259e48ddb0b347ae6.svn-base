@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="org.mangosoft.leagoovn.smarthub.ui.activity.WarrantyConfirmationActivity"
+    tools:showIn="@layout/activity_warranty_confirmation">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txt_warranty_confirmation_welcome"
+            style="@style/AppTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            android:text="@string/warranty_confirmation_welcome"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/warranty_confirm_text_guide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="" />
+
+        <fr.castorflex.android.circularprogressbar.CircularProgressBar
+            android:id="@+id/spinner_warranty_confirmation"
+            style="@style/CircularThemeProgressBar"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/content_icon_height"
+            android:indeterminate="true"
+            android:visibility="gone"
+            app:cpb_rotation_speed="0.5"
+            app:cpb_sweep_speed="0.5" />
+
+        <Button
+            android:id="@+id/button_warranty_denial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="@dimen/text_margin"
+            android:layout_weight="1"
+            android:text="@string/text_deny" />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

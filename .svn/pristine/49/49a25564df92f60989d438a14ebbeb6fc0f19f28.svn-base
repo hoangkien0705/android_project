@@ -1,0 +1,108 @@
+package org.mangosoft.leagoovn.smarthub.ui.fragment;
+
+import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v7.widget.DefaultItemAnimator;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import org.mangosoft.leagoovn.smarthub.R;
+import org.mangosoft.leagoovn.smarthub.model.ProductMdl;
+import org.mangosoft.leagoovn.smarthub.ui.adapter.ProductAdapter;
+import org.mangosoft.leagoovn.smarthub.ui.interfaces.ClickListener;
+import org.mangosoft.leagoovn.smarthub.ui.interfaces.OnFragmentInteractionListener;
+import org.mangosoft.leagoovn.smarthub.ui.widget.DividerItemDecoration;
+import org.mangosoft.leagoovn.smarthub.ui.widget.RecyclerTounchListener;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import butterknife.Bind;
+import butterknife.ButterKnife;
+
+public class ProductFragment extends Fragment {
+    @Bind(R.id.rv_product)
+    RecyclerView rvProduct;
+    /*
+    @Bind(R.id.textView)
+    TextView txt;
+     */
+    private OnFragmentInteractionListener listener;
+    private List<ProductMdl> listProduct = new ArrayList<>();
+    private ProductAdapter adapter;
+
+    public static ProductFragment newInstance() {
+        ProductFragment fragment = new ProductFragment();
+        Bundle args = new Bundle();
+        fragment.setArguments(args);
+        return fragment;
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        listProduct.add(new ProductMdl(R.drawable.anfa_8, "http://www.leagoo.vn/uploads/allimg/160325/8-1603250424440-L.png", "Alfa 8", "Hãy đơn giản hóa cuộc sống", "http://www.leagoo.vn/mobile/Alfa_Series/Alfa_8.html"));
+        listProduct.add(new ProductMdl(R.drawable.alfa_6, "http://www.leagoo.vn/uploads/allimg/160318/8-16031P30U50-L.png", "Alfa 6", "Chia sẻ niềm vui", "http://www.leagoo.vn/mobile/Alfa_Series/Alfa_6.html"));
+        listProduct.add(new ProductMdl(R.drawable.slake_1, "http://www.leagoo.vn/uploads/allimg/160224/8-160224212U60-L.png", "Shark 1", "Bền bỉ để thành công", "http://www.leagoo.vn/mobile/Shark_Series/2016/0224/Shark_1.html"));
+        listProduct.add(new ProductMdl(R.drawable.alfa_1, "http://www.leagoo.vn/uploads/allimg/151201/6-151201142U20-L.png", "Alfa 1", "Nắm tay để cảm nhận", "http://www.leagoo.vn/mobile/Alfa_Series/alfa1.html"));
+        listProduct.add(new ProductMdl(R.drawable.elite_1, "http://www.leagoo.vn/uploads/allimg/150813/6-150Q31105110-L.png", "Elite 1", "Hiệu quả và an toàn", "http://www.leagoo.vn/mobile/elite_series/Elite1.html"));
+        listProduct.add(new ProductMdl(R.drawable.elite_5, "http://www.leagoo.vn/uploads/allimg/150707/6-150FG122250-L.gif", "Elite 5", "Sức mạnh tiềm ẩn", "http://www.leagoo.vn/mobile/elite_series/Elite5.html"));
+        adapter = new ProductAdapter(listProduct);
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View v = inflater.inflate(R.layout.fragment_product, container, false);
+        ButterKnife.bind(this, v);
+        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getActivity());
+        rvProduct.setLayoutManager(mLayoutManager);
+        rvProduct.setItemAnimator(new DefaultItemAnimator());
+        rvProduct.addItemDecoration(new DividerItemDecoration(getActivity(), LinearLayoutManager.VERTICAL));
+        rvProduct.setAdapter(adapter);
+        rvProduct.addOnItemTouchListener(new RecyclerTounchListener(getActivity(), rvProduct, new ClickListener() {
+            @Override
+            public void onClick(View view, int position) {
+                ProductMdl productMdl = listProduct.get(position);
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(productMdl.getUrl()));
+                startActivity(i);
+            }
+
+            @Override
+            public void onLongClick(View view, int position) {
+            }
+        }));
+        return v;
+    }
+
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        if (context instanceof OnFragmentInteractionListener) {
+            listener = (OnFragmentInteractionListener) context;
+        } else {
+            throw new RuntimeException(context.toString() + " must implement OnFragmentInteractionListener");
+        }
+    }
+
+    @Override
+    public void onDetach() {
+        super.onDetach();
+        listener = null;
+    }
+
+    /*
+     @OnClick({R.id.button, R.id.button2})
+    public void buttonOnClick(final Button b) {
+        Intent i = new Intent(getContext(), WarrantyConfirmationActivity.class);
+        i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(i);
+    }
+     */
+}

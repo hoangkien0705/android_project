@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_warranty"
+            android:checked="true"
+            android:icon="@drawable/ic_verified_user"
+            android:title="@string/side_menu_item_warranty" />
+        <item
+            android:id="@+id/nav_store"
+            android:icon="@drawable/ic_menu_store"
+            android:title="@string/side_menu_item_stores" />
+        <item
+            android:id="@+id/nav_product"
+            android:icon="@drawable/ic_menu_product"
+            android:title="@string/side_menu_item_products" />
+        <item
+            android:id="@+id/nav_promotion"
+            android:icon="@drawable/ic_menu_new"
+            android:title="@string/side_menu_item_promo" />
+    </group>
+
+    <item
+        android:enabled="false"
+        android:title="@string/side_menu_item_utils" />
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_list_app"
+            android:enabled="false"
+            android:icon="@drawable/ic_menu_app"
+            android:title="@string/side_menu_item_apps"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_support"
+            android:icon="@drawable/ic_menu_help"
+            android:title="@string/side_menu_item_help" />
+    </group>
+
+</menu>

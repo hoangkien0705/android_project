@@ -1,0 +1,26 @@
+package org.mangosoft.leagoovn.smarthub.utils;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Map;
+
+/**
+ * Created by thanghx on 4/9/16.
+ */
+public final class StringUtils {
+    public static boolean isEmpty(String input) {
+        return input == null || input.trim().equals("");
+    }
+
+    public static String serializeDate(Date date) {
+        SimpleDateFormat dateFormat = new SimpleDateFormat(Constants.DATE_FORMAT);
+        return dateFormat.format(date);
+    }
+
+    public static Date deserializeDate(String aDateString) throws ParseException {
+        SimpleDateFormat dateFormat = new SimpleDateFormat(Constants.DATE_FORMAT);
+        return dateFormat.parse(aDateString);
+    }
+
+}
