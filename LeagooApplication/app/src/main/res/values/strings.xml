@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Leagoo Info</string>
+    <string name="service_name">Leagoo background service</string>
+    <string name="navigation_drawer_open">Open navigation</string>
+    <string name="navigation_drawer_close">Close navigation</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_framgnet_warranty">Fragment Warranty</string>
+    <string name="title_framgnet_store">Fragment Store</string>
+    <string name="title_fragment_product">Fragment Product </string>
+    <string name="title_fragment_promotion">Fragment Promotion</string>
+    <string name="title_fragment_list_app">Fragment List App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_support_fragment">Fragment Support</string>
+    <string name="content_description">content description</string>
+    <string name="content_waranty">Thiết bị của bạn chưa được kích hoạt bảo hành, Bạn vui lòng nhấn đồng ý ở hộp thoại tiếp theo để thực hiện bảo hành cho thiết bị</string>
+    <string name="side_menu_item_stores">Hệ thống cửa hàng, đại lý</string>
+    <string name="side_menu_item_warranty">Thông tin bảo hành</string>
+    <string name="side_menu_item_products">Sản phẩm</string>
+    <string name="side_menu_item_promo">Tin tức/Khuyến mại</string>
+    <string name="side_menu_item_utils">Tiện ích</string>
+    <string name="side_menu_item_apps">Các ứng dụng hay</string>
+    <string name="side_menu_item_help">Trợ giúp</string>
+    <string name="support_mail">service@leagoo.vn</string>
+    <string name="support_website">www.leagoo.vn</string>
+    <string name="title_activity_warranty_confirmation">Kích hoạt bảo hành</string>
+
+    <string name="guide_text_1">Hệ thống sẽ tự động giúp bạn gửi tin nhắn kích hoạt bảo hành điện tử sản phẩm LEAGOO. Phí %d VNĐ một SMS (duy nhất 1 lần) đã chiết khấu trong giá bán sản phẩm. Vui lòng bấm nút</string>
+    <string name="guide_text_2">ở bên trên để gửi SMS kích hoạt bảo hành điện tử.</string>
+    <string name="guide_text_3">
+        Nếu bạn chưa muốn gửi SMS kích hoạt bảo hành lúc này, tại bất cứ thời điểm nào trong vòng 2 tuần kể từ khi mua máy, bạn có thể tự soạn SMS:
+    </string>
+    <string name="guide_text_4">gửi tới</string>
+    <string name="guide_text_5">(chỉ cần 1 lần duy nhất) để thực hiện việc kích hoạt bảo hành điện tử cho sản phẩm.</string>
+    <string name="guide_text_note_title">Lưu ý</string>
+    <string name="guide_text_note_text">kích hoạt bảo hành điện tử được coi là thành công khi SMS trả về có nội dung sản phẩm của bạn đã được kích hoạt</string>
+    <string name="guide_text_6">Nếu bạn không thực hiện việc gửi SMS kích hoạt bảo hành, đồng nghĩa với việc bạn từ chối quyền lợi bảo hành sản phẩm theo quy định của LEAGOO Vietnam.</string>
+    <string name="guide_text_7">Để kiểm tra thời hạn của sản phẩm (không bắt buộc), soạn tin:</string>
+    <string name="guide_text_8">(phí %d VNĐ/lần).</string>
+    <string name="warranty_confirmation_welcome">Chào mừng đến với dịch vụ bảo hành điện tử của Leagoo Việt Nam</string>
+    <string name="warranty_confirmation_denial">Nếu bạn chắc chắn rằng sản phẩm này đã được kích hoạt bảo hành trước đó hoặc bạn chấp nhận từ bỏ quyền lợi bảo hành sản phẩm, vui lòng bỏ qua thông báo này và đánh dấu vào hộp \'Không nhắc lại nữa\'</string>
+    <string name="text_dont_show_again">Không nhắc lại nữa</string>
+    <string name="text_skip">Để sau</string>
+    <string name="text_deny">Từ chối và không hỏi lại</string>
+    <string name="text_close">Đóng</string>
+    <string name="warranty_sms_unsuccess_all">Không thể gửi SMS kích hoạt bảo hành. Vui lòng kiểm tra lại số tiền trong tài khoản chính và thử lại.</string>
+    <string name="guide_text_9">Vui lòng chờ trong giây lát...</string>
+
+</resources>

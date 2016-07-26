@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="G:\workspace_studio_android\trunk\app\build\intermediates\exploded-aar\com.android.support\design\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="G:\workspace_studio_android\trunk\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.2.1_19250fcbbf1e89d410ce8fc2e709a33058296af4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mango\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="G:\workspace_studio_android\trunk\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1_9b5b99dbd604943bd7f27fef183c2a95f2c51e26.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mango\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.7.3\f12e6cd05cbaecd74d16e685d45b627732939e42\jackson-databind-2.7.3.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f12e6cd05cbaecd74d16e685d45b627732939e42">
+        <dex dex="G:\workspace_studio_android\trunk\app\build\intermediates\pre-dexed\debug\jackson-databind-2.7.3_be476856dc7daba09485ffef6eea1277352cda26.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mango\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.7.0\19f42c154ffc689f40a77613bc32caeb17d744e3\jackson-annotations-2.7.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="19f42c154ffc689f40a77613bc32caeb17d744e3">
+        <dex dex="G:\workspace_studio_android\trunk\app\build\intermediates\pre-dexed\debug\jackson-annotations-2.7.0_bab057459f30c73fe2db8ebeb1549e655b08fbfd.jar" />
+    </item>
+    <item
+        jar="G:\workspace_studio_android\trunk\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="G:\workspace_studio_android\trunk\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.1_ebb93db2dc8af0ef6e355c213f917197961da848.jar" />
+    </item>
+    <item
+        jar="G:\workspace_studio_android\trunk\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d4c4b83de2f6412072d2a29b1b7a5b03edaad5ff">
+        <dex dex="G:\workspace_studio_android\trunk\app\build\intermediates\pre-dexed\debug\io.reactivex-rxandroid-1.1.0_ff7c7c4dd1e16d8ca637f384cca72350519fadfa.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mango\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.0\748f0546d5c3c27f1aef07270ffea0c45f0c42a4\rxjava-1.1.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="748f0546d5c3c27f1aef07270ffea0c45f0c42a4">
+        <dex dex="G:\workspace_studio_android\trunk\app\build\intermediates\pre-dexed\debug\rxjava-1.1.0_69f2fbec2eddf1d5421036c52dc53e22815ce780.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mango\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.7.3\1499b854ae9f370409792db5af1b552dc7d9682f\jackson-core-2.7.3.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1499b854ae9f370409792db5af1b552dc7d9682f">
+        <dex dex="G:\workspace_studio_android\trunk\app\build\intermediates\pre-dexed\debug\jackson-core-2.7.3_288596c013f74f3245fec68c1573d936cc571ea6.jar" />
+    </item>
+    <item
+        jar="G:\workspace_studio_android\trunk\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="G:\workspace_studio_android\trunk\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.1_8baf8c5003bde1596d3ece24c453f066b4c9f9af.jar" />
+    </item>
+    <item
+        jar="D:\adt-bundle-android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="G:\workspace_studio_android\trunk\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.1_29c09dd9f14b53179d03561c2d42d20dff2e2df3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mango\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.jr\jackson-jr-objects\2.7.3\2df9ad08a212b2c7e3a768646aa050f9f3ea3962\jackson-jr-objects-2.7.3.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="2df9ad08a212b2c7e3a768646aa050f9f3ea3962">
+        <dex dex="G:\workspace_studio_android\trunk\app\build\intermediates\pre-dexed\debug\jackson-jr-objects-2.7.3_d3d174aa3d7008e364762198f809351f48defd2f.jar" />
+    </item>
+    <item
+        jar="G:\workspace_studio_android\trunk\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="G:\workspace_studio_android\trunk\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.1_6a6586b10845f3b452be70669ae6694f4f87a98a.jar" />
+    </item>
+    <item
+        jar="G:\workspace_studio_android\trunk\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="G:\workspace_studio_android\trunk\app\build\intermediates\pre-dexed\debug\com.android.volley-volley-1.0.0_b256e068da8ddf2f857cb531b25c62cf2a6d718b.jar" />
+    </item>
+    <item
+        jar="G:\workspace_studio_android\trunk\app\build\intermediates\exploded-aar\com.github.orhanobut\logger\1.12\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ecb9f39f775f414b18c7c61b4f71345f2ae8f738">
+        <dex dex="G:\workspace_studio_android\trunk\app\build\intermediates\pre-dexed\debug\com.github.orhanobut-logger-1.12_d2c74c8ef5d4838b12ba9a3a301f2df0336194a4.jar" />
+    </item>
+    <item
+        jar="G:\workspace_studio_android\trunk\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="G:\workspace_studio_android\trunk\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.1_9c0a01c85d6fbf667daab2ec41ea09f7aca34410.jar" />
+    </item>
+    <item
+        jar="G:\workspace_studio_android\trunk\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="G:\workspace_studio_android\trunk\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.2.1_1110c25ef93a9a8a9d7587d7a3b20a606d41f108.jar" />
+    </item>
+    <item
+        jar="G:\workspace_studio_android\trunk\app\build\intermediates\exploded-aar\com.github.castorflex.smoothprogressbar\library-circular\1.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e6e5cb683c74a95072d8fbf47a997e64546fc284">
+        <dex dex="G:\workspace_studio_android\trunk\app\build\intermediates\pre-dexed\debug\com.github.castorflex.smoothprogressbar-library-circular-1.2.0_cbafc1511dc04ff99f0ce2f0b59efa578a61f304.jar" />
+    </item>
+    <item
+        jar="G:\workspace_studio_android\trunk\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="G:\workspace_studio_android\trunk\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.1_315c822b5a59ff0f8d5e0c266fa15683be4c9421.jar" />
+    </item>
+
+</items>
